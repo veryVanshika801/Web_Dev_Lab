@@ -1,0 +1,8 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+.navbar { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 20px; padding: 12px 24px; background: #20364d; color: white; }
+.navbar a { color: white; text-decoration: none; }
+main { padding: 24px; }
+.image-card { position: relative; max-width: 700px; height: 350px; overflow: hidden; }
+.image-card img { width: 100%; height: 100%; object-fit: cover; }
+.card-text { position: absolute; left: 20px; bottom: 20px; padding: 16px; color: white; background: rgba(0, 0, 0, 0.65); }
+#about { min-height: 500px; padding-top: 30px; }
