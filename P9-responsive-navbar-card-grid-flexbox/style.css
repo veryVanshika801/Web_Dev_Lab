@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; }
+.navbar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding: 16px 24px; background: #263d55; color: white; }
+.nav-links { display: flex; flex-wrap: wrap; gap: 18px; }
+.nav-links a { color: white; text-decoration: none; }
+main { padding: 24px; }
+.card-container { display: flex; flex-wrap: wrap; gap: 16px; }
+.card { flex: 1 1 220px; padding: 20px; background: #eef3f7; border-radius: 8px; }
+@media (max-width: 500px) { .navbar { align-items: flex-start; flex-direction: column; } }
