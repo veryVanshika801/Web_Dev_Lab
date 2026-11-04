@@ -1,0 +1,18 @@
+:root {
+    --color-primary: #24476b;
+    --color-background: #f2f5f8;
+    --color-text: #222222;
+    --space-small: 8px;
+    --space-medium: 16px;
+    --space-large: 32px;
+    --font-main: Arial, sans-serif;
+    --text-small: 14px;
+    --text-normal: 16px;
+    --text-large: 28px;
+}
+body { margin: 0; font-family: var(--font-main); font-size: var(--text-normal); color: var(--color-text); background: var(--color-background); }
+.site-header { padding: var(--space-medium); color: white; background: var(--color-primary); }
+.content { padding: var(--space-large); }
+.card { max-width: 600px; padding: var(--space-large); background: white; border-radius: 10px; }
+h1, h2 { font-size: var(--text-large); }
+button { padding: var(--space-small) var(--space-medium); color: white; background: var(--color-primary); border: 0; border-radius: 5px; }
