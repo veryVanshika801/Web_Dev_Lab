@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; }
+.topbar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding: 16px 24px; color: white; background: #263d55; }
+.topbar nav { display: flex; flex-wrap: wrap; gap: 16px; }
+.topbar a { color: white; text-decoration: none; }
+.page-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; padding: 24px; min-height: 300px; }
+.content, .sidebar { padding: 20px; background: #eef3f7; border-radius: 8px; }
+footer { padding: 18px; text-align: center; color: white; background: #263d55; }
+@media (max-width: 650px) { .page-grid { grid-template-columns: 1fr; } }
