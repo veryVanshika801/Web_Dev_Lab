@@ -2,7 +2,7 @@
 
 A collection of practical exercises for the **Programming for Web Development – I Laboratory**.
 
-The lab sheet provides practical titles only, so the write-ups use simple beginner-level steps and examples based on those titles.
+The laboratory sheet lists practical titles. These beginner-level write-ups provide example steps and code based on each title.
 
 ## Module 1: Terminal, Git & GitHub
 
@@ -13,29 +13,29 @@ The lab sheet provides practical titles only, so the write-ups use simple beginn
 | P3 | Feature-branch Git workflow |
 | P4 | GitHub README and version tags |
 
-## Folder structure
+## Module 2: HTML & CSS Foundations
 
-```text
-Web_Dev_Lab/
-├── P1-project-folder-and-terminal-navigation/
-│   └── README.md
-├── P2-portfolio-repo/
-│   ├── README.md
-│   ├── index.html
-│   └── style.css
-├── P3-feature-branch-workflow/
-│   └── README.md
-├── P4-readme-and-version-tags/
-│   └── README.md
-├── CHANGELOG.md
-└── README.md
-```
+| Practical | Topic |
+|---|---|
+| P5 | Semantic bio page |
+| P6 | Full portfolio page structure in semantic HTML |
+| P7 | Design tokens and typography system in CSS |
+| P8 | Sticky navbar and card overlay using CSS positioning |
+| P9 | Responsive navbar and card grid using Flexbox |
+
+## Module 3: CSS Layout Systems
+
+| Practical | Topic |
+|---|---|
+| P10 | Portfolio header and footer with advanced Flexbox |
+| P11 | Newspaper-style three-column layout using CSS Grid |
+| P12 | Portfolio projects grid with advanced CSS Grid |
+| P13 | Choosing between Flexbox and Grid for a shared layout |
 
 ## Progress
 
-- [x] P1 terminal navigation practical
-- [x] P2 portfolio page and initial Git commit steps
-- [x] P3 feature branch workflow
-- [x] P4 README and version tag steps
+- [x] P1–P4: Terminal, Git and GitHub
+- [x] P5–P9: HTML and CSS foundations
+- [x] P10–P13: Flexbox and Grid layouts
 
 **Course:** Programming for Web Development – I Laboratory
