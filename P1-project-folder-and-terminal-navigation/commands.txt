@@ -1,0 +1,22 @@
+P1 - PROJECT FOLDER AND TERMINAL NAVIGATION
+
+mkdir web-development-lab
+cd web-development-lab
+pwd
+ls
+ls -a
+mkdir P1-project-folder-and-terminal-navigation
+cd P1-project-folder-and-terminal-navigation
+touch notes.txt
+cd ..
+
+Command meanings:
+mkdir = create a folder
+cd = change folder
+cd .. = move to parent folder
+pwd = show current folder path
+ls = list files and folders
+ls -a = include hidden files
+touch = create an empty file
+
+Run commands one at a time in Terminal.
