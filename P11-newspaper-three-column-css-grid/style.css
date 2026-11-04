@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Georgia, serif; color: #222; }
+.masthead, footer { padding: 20px; text-align: center; background: #24364b; color: white; }
+.news-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 20px; padding: 24px; }
+.story { padding: 18px; background: #f1f3f5; border-top: 4px solid #24364b; }
+.main-story { grid-column: span 1; }
+@media (max-width: 700px) { .news-grid { grid-template-columns: 1fr; } }
