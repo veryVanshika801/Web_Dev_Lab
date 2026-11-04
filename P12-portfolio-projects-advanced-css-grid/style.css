@@ -1,0 +1,6 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f6f8; }
+header { padding: 28px; text-align: center; color: white; background: #243b53; }
+.projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; padding: 28px; }
+.project { min-height: 160px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); }
+.project h2 { margin-top: 0; color: #243b53; }
